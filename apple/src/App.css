@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 10000;
+}
+
+.header span {
+    cursor: pointer;
+}
+
+.header_count {
+    width: 1024px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 0px auto;
+    color: #999999;
+}
+
+
+.Under_header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1D1D1F;
+    margin-top: 50px;
+}
+
+.Under_header span {
+    color: #2997ff;
+}
+
+.main_block {
+    /* background-color: #F5F5F7; */
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.top_ h1 {
+    font-size: 60px;
+}
+.block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top_ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top_ span {
+    margin-top: 10px;
+
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.top_ a {
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.bottom_ img {
+    width: 600px;
+    height: 500px;
+}
+
+
+
+
+.block_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block_2_inner {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block_2_inner h1 {
+
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+
+.block_2_inner a {
+    padding: 0px 15px 0px 0px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.bottom img {
+    width: 480px;
+    height: 500px;
+}
+
+.big_box {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid gray;
+}
+
+.top h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
